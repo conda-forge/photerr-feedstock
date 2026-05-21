@@ -9,6 +9,8 @@ Package license: MIT
 
 Summary: Photometric error model for astronomical imaging surveys
 
+Development: https://github.com/jfcrenshaw/photerr
+
 Current build status
 ====================
 
