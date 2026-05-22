@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -35,6 +35,7 @@ test:
 
 about:
   home: https://github.com/jfcrenshaw/photerr
+  dev_url: https://github.com/jfcrenshaw/photerr
   summary: Photometric error model for astronomical imaging surveys
   license: MIT
   license_file: LICENSE
